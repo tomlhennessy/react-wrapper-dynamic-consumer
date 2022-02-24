@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
       {horoscopes.map(sign => (
         <span key={sign}>
-          {sign}
+        {sign}
         </span>
       ))}
     </nav>
