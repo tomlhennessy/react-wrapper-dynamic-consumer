@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav>
       {horoscopes.map(sign => (
-        <span key={sign} onClick={() => setCurrentSign(sign)}>
+        <span key={sign}>
           {sign}
         </span>
       ))}
