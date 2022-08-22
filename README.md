@@ -24,7 +24,7 @@ component consumes the context. Importantly, components that consume the context
 will re-render **every time** there is a change in context. The question you
 need to consider is whether or not the `SideCard` component will also re-render.
 
-To start, navigate to your `SideCard` component (__src/components/Sidebar.js__)
+To start, navigate to your `SideCard` component (__src/components/SideCard.js__)
 and add a `console.log` inside the component with a message indicating that the
 component is rendering. This will help you track if the component re-renders
 when it's not consuming the context.
